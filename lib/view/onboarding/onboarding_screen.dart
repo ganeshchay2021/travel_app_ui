@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app_ui/constant/color.dart';
 import 'package:travel_app_ui/model/on_boarding_model.dart';
-import 'package:travel_app_ui/view/home/home_screen.dart';
+import 'package:travel_app_ui/view/bottom_nav_bar.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -18,8 +18,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       body: Stack(
         children: [
           PageView.builder(
-            // pageSnapping: false,
-            itemCount: onboarding.length,
+                itemCount: onboarding.length,
             onPageChanged: (value) {
               setState(() {
                 currentIndex = value;
@@ -40,7 +39,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   onTap: () {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                      MaterialPageRoute(builder: (context) => BottomNavBar()),
                     );
                   },
                   child: Visibility(
@@ -136,7 +135,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => BottomNavBar(),
                             ),
                           );
                         },
@@ -168,7 +167,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         onTap: () {
                           Navigator.of(context).pushReplacement(
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => BottomNavBar(),
                             ),
                           );
                         },
