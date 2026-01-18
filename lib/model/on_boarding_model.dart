@@ -18,7 +18,7 @@ List<OnboardModel> onboarding = [
     name: 'Peacefull Mind in Nature',
   ),
   OnboardModel(
-    image: 'https://communityserviceofnepal.org/wp-content/uploads/2020/03/maxresdefault.jpg?w=1024',
+    image: 'https://w0.peakpx.com/wallpaper/316/18/HD-wallpaper-mustang-blue-full-mountain-nepal-road-roadtrip-sky-snow.jpg',
     name: 'Bright of mountain Range',
   ),
 ];
