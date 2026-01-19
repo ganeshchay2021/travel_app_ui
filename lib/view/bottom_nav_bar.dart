@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:travel_app_ui/view/home/home_screen.dart';
-import 'package:travel_app_ui/view/home/pages/bookmark_screen.dart';
-import 'package:travel_app_ui/view/home/pages/conformation_number_screen.dart';
-import 'package:travel_app_ui/view/home/pages/profile_screen.dart';
-import 'package:travel_app_ui/view/home/pages/search_screen.dart';
+import 'package:travel_app_ui/view/pages/bookmark_screen.dart';
+import 'package:travel_app_ui/view/pages/conformation_number_screen.dart';
+import 'package:travel_app_ui/view/pages/profile_screen.dart';
+import 'package:travel_app_ui/view/pages/search_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});
